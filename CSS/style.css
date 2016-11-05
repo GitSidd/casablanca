@@ -39,11 +39,6 @@ body
     float:left;
 }
 
-a:link
-{
-    background-color:antiquewhite;
-}
-
 a:hover
 {
     background-color:black;
@@ -61,6 +56,7 @@ a:hover
     font-family: 'Share Tech Mono', monospace, 'Times New Roman', Verdana;      
     margin:20px 0px 0px 0px;
 }
+
 .pageContent
 {
     width:960px;
