@@ -25,7 +25,7 @@ body
     width:960px;
 }
 
-.navigationBarButton
+.navigationBarButton    /* For the navigation bar buttons */
 {
     font-size:20px;
     font-family: 'Share Tech Mono', monospace, 'Times New Roman', Verdana;
@@ -39,7 +39,7 @@ body
     float:left;
 }
 
-a:hover
+a:hover  /* Turns black when the cursor is on top */
 {
     background-color:black;
 }
@@ -53,11 +53,11 @@ a:hover
 
 #headerStyle
 {
-    font-family: 'Share Tech Mono', monospace, 'Times New Roman', Verdana;      
+    font-family: 'Share Tech Mono', monospace, 'Times New Roman', Verdana;  /* Using Google fonts */   
     margin:20px 0px 0px 0px;
 }
 
-.pageContent
+.pageContent  /* Section that contains the images and text */
 {
     width:960px;
     font-family:'PT Sans', sans-serif;
