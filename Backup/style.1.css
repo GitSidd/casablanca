@@ -1,15 +1,14 @@
 body 
 {
-    text-align:center; 
-    margin:24px;
-    background-color:#F0F0F0;
+    background-color:white;
+    text-align:center;
+    margin:24px 0px 24px 0px;
 }
 
 #webPage
 {
     width:960px;
     display:inline-block;
-    text-align:center;
 }
 
 #activePage 
@@ -88,13 +87,22 @@ p
 #footerLink
 {
     font-size:15px;
-    padding:5px;
+    padding:3px;
 }
 
-.multipleImageCorrect /* When the page has multiple pictures, I noticed that the first div is repositioned 8px to the right. This class is to correct it */
+.imageMultiple
 {
-    position:relative; 
-    left:8px;
+    border:5px solid #635F5C;
+    width:240px;
+    margin:10px 0px 10px 20px;
+    float:right;
+}
+
+#boxImageMultiple
+{
+    width:600px;
+    float:right;
+    clear:both;
 }
 
 .pageBreak
@@ -104,69 +112,19 @@ p
     padding-top:20px;
     float:right;
     width:960px;
-    text-align:center;
 }
 
 .topPageLink
 {
     color:black;
-    clear:both;
     float:left;
-    background-color:#F0F0F0;
+    background-color:white;
     text-decoration:underline;
     font-family:'Times New Roman', Verdana;
     padding-top:20px;
 }
 
-div a:hover /* Turn blue when cursor on top */
+div a:hover
 {
-    color:red;
+    color:blue;
 }
-
-/* Flip Picture......................... */
-
-.flip-container {
-	perspective: 1000px;
-	display: inline-block;
-    margin: 0px;
-}
-	/* flip the pane when hovered */
-	.flip-container:hover .flipper, .flip-container.hover .flipper {
-		transform: rotateY(180deg);
-	}
-
-.flip-container, .front, .back {
-	width: 500px;
-	height: 284px;
-}
-
-/* flip speed goes here */
-.flipper {
-	transition: 0.8s;
-	transform-style: preserve-3d;
-
-	position: relative;
-}
-
-/* hide back of pane during swap */
-.front, .back {
-	backface-visibility: hidden;
-
-	position: absolute;
-	top: 0;
-	left: 0;
-}
-
-/* front pane, placed above back */
-.front {
-	z-index: 2;
-	/* for firefox 31 */
-	transform: rotateY(0deg);
-}
-
-/* back, initially hidden pane */
-.back {
-	transform: rotateY(180deg);
-}
-
-/* Flip Picture End...................*/
