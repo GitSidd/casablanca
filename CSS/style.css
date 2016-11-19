@@ -123,7 +123,7 @@ div a:hover /* Turn blue when cursor on top */
     color:red;
 }
 
-/* Flip Picture......................... */
+/* Flip Picture Start......................... */
 
 .flip-container {
 	perspective: 1000px;
